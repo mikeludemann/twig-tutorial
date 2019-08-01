@@ -1,0 +1,16 @@
+{
+    "name": "mikeludemann/twig-tutorial",
+    "description": "Twig Tutorial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Ludemann",
+            "email": "mike-ludemann@hotmail.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "^2.11"
+    }
+}

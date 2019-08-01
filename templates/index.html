@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<table border="1" style="width: 80%;">
+		<thead>
+			<tr>
+				<td>Name</td>
+				<td>Age</td>
+				<td>Birthday</td>
+			</tr>
+		</thead>
+		<tbody>
+			{% for person in persons %}
+				<tr>
+					<td>{{ person.name }}</td>
+					<td>{{ person.age }}</td>
+					<td>{{ person.birthday }}</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}
